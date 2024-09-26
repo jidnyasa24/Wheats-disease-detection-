@@ -68,5 +68,5 @@ The final output of the system includes:
 - **Deep Learning Framework**: TensorFlow and Keras
 - **Pre-trained Model**: VGG19
 - **Web Framework**: Flask
-- **Weather API**: OpenWeatherMap (or a similar weather API)
+- **Weather API**
 - **Frontend**: HTML, CSS, and JavaScript for the web interface
