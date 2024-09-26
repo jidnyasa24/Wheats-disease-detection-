@@ -2,18 +2,18 @@
 
 ## **Project Overview**
 
-### **Situation:**
+
 Wheat crops are susceptible to various diseases that can significantly reduce yield if not detected early. Traditionally, disease detection relies on manual observation by experts, which can be time-consuming and prone to error. Given the vast size of wheat fields, there is a growing need for automated disease detection systems to assist farmers in quickly diagnosing and responding to potential threats.
 
-### **Task:**
+
 The aim of this project was to develop an automated system to detect wheat crop diseases using deep learning models. The system needed to be accurate, easy to use, and capable of providing results in real-time. Additionally, it was required to integrate environmental data (through a weather API) to provide context on disease susceptibility based on the current weather conditions.
 
-### **Action:**
+
 To achieve this, I built a convolutional neural network (CNN) using the **VGG19** architecture, which is well-suited for image classification tasks. The model was trained on a dataset of images of healthy and diseased wheat crops. For deployment, I used **Flask**, a lightweight web framework, to create a web interface where users can upload images of wheat leaves for real-time disease detection.
 
 I also integrated a weather API to retrieve real-time weather data such as temperature and humidity, which can affect disease development. This integration allows the system to provide additional context and warnings when weather conditions are favorable for the spread of certain diseases.
 
-### **Result:**
+
 The final model achieved an accuracy of **XX%** on the test set. The system provides accurate predictions of wheat crop diseases and is accessible through a simple web interface. By combining disease detection with real-time weather data, the system offers farmers a powerful tool for managing their crops and responding quickly to potential disease outbreaks.
 
 ---
